@@ -8,6 +8,7 @@ In this project, I try to analyze what sorts of people were likely to survive an
 
 * [objective](#objective)
 * [Data](#data)
+* [Result](#result)
 * [Dependencies](#dependencies)
 * [Reference](#reference)
 
@@ -18,7 +19,16 @@ Predict the survival of passengers in testing data based on training data
 ## Data
 
 train.csv: 891 passengers with 12 attributes, including the labels (survived or dead)
+
 test.csv: 418 passengers with 11 attributes
+
+# Result
+
+training accuracy: 83%
+
+testing accuracy: 80%
+
+around top 10% of all the participating team
 
 ## Dependencies
 
@@ -32,4 +42,4 @@ test.csv: 418 passengers with 11 attributes
 
 ## Reference
 
-kaggle-titanic: [here] https://www.kaggle.com/c/titanic).
+kaggle-titanic: [here] (https://www.kaggle.com/c/titanic).
