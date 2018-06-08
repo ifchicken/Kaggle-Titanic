@@ -4,23 +4,29 @@ The sinking of Titanic is one of the most infamous shipwrecks in history. 1502 o
 In this project, I try to analyze what sorts of people were likely to survive and apply the tools of machine learning to predict which passengers survived the tragedy.
 
 ## Table of Contents
-* [objective](#objective)
+* [Summary](#summary)
 * [Data](#data)
 * [Result](#result)
 * [Dependencies](#dependencies)
 * [Reference](#reference)
 
-## Objective
-Predict the survival of passengers in testing data based on training data
+## Summary
+Predict the survival of passengers in testing data based on training data.<br>
+* Worked on various phases of data science project like data analysis, data cleaning, and model building
+* Model building(Random Forest, Deep Learning) with Scikit-learn, TensorFlow and Keras
 
 ## Data
 train.csv: 891 passengers with 12 attributes, including the labels (survived or dead)<br>
 test.csv: 418 passengers with 11 attributes
 
-# Result
+Data analysis: [Data_analysis.ipynb](Data_analysis.ipynb)
+
+## Result
 training accuracy: 83%<br>
 testing accuracy: 80%<br>
 around top 10% of all the participating team
+
+ML model train and predict: [Model_Prediction.ipynb](Model_Prediction.ipynb)
 
 ## Dependencies
 * numpy
